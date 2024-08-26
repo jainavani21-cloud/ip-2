@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IP Exp1</title>
+    <style>
+        /* Basic Reset */
+        body, h1, p, a, select, font {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Body Styling */
+        body {
+            background-image: url('img/01.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            height: 700px;
+            border-collapse: collapse;
+        }
+
+        th {
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Header Row Styling */
+        .header-row {
+            display: flex;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.5); /* Slightly dark background for readability */
+        }
+
+        .header-row img {
+            height: 50px;
+            margin: 10px;
+        }
+
+        .header-row .nav-links {
+            flex: 1;
+            text-align: center;
+        }
+
+        .header-row .nav-links a {
+            color: #3399FF;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+
+        .header-row .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Content Row Styling */
+        .content-row {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .content-row h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .content-row select {
+            padding: 5px;
+            font-size: 1em;
+        }
+
+        .trading-info {
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #f1f1f1;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<table border="0">
+    <!-- Row 1 -->
+    <tr class="header-row">
+        <th colspan="6">
+            <img src="img/bull_logo.png" alt="Bull Logo">
+            <div class="nav-links">
+                <font face="Monoton" color="blue">
+                    <a href="index.html"><u>Bull runs</u></a>
+                </font>
+                <a href="home.html">Home</a> | <a href="about.html">About Us</a>
+            </div>
+        </th>
+    </tr>
+    <!-- Row 2 -->
+    <tr class="content-row">
+        <th colspan="6">
+            <h1>Company Expert in All Segments</h1>
+            <br>
+            <label for="language">Select derivative:</label>
+            <select name="language" id="language">
+                <option value="Equity">Equity</option>
+                <option value="Options">Options</option>
+                <option value="Futures" selected>Futures</option>
+            </select>
+        </th>
+    </tr>
+    <!-- Row 3 -->
+    <tr class="content-row">
+        <th colspan="6">
+            <font size="6">This project is made by Jai - 31</font>
+        </th>
+    </tr>
+    <!-- Row 4 -->
+    <tr class="content-row">
+        <th colspan="6" class="trading-info">
+            <p>Trading is a dynamic field where knowledge, strategy, and timing play crucial roles. In today’s fast-paced markets, traders need to be equipped with up-to-date information and tools to make informed decisions. Whether you are trading equities, options, or futures, understanding market trends and having a well-defined strategy can make all the difference in achieving success. Continuous learning and adapting to market conditions are key to staying ahead in the trading world.</p>
+        </th>
+    </tr>
+    <!-- Row 5 -->
+    <tr class="content-row">
+        <th colspan="6"></th>
+    </tr>
+</table>
+
+<!-- Footer -->
+<footer>
+    <p>Contact us at: <a href="mailto:contact@example.com">d2022.jai.navani@ves.ac.in</a></p>
+    <p>Phone: 123456789</p>
+</footer>
+    
+</body>
+</html>
